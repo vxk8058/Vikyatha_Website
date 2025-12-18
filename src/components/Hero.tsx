@@ -15,25 +15,24 @@ export function Hero() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="max-w-4xl">
-          <div className="inline-block px-4 py-2 rounded-full border border-blue-400 mb-8">
-            <span className="text-blue-400 text-sm">&lt;/&gt; Full-Stack Developer & AI Engineer</span>
+          <div className="inline-block px-8 py-5 rounded-full border border-blue-400 mb-8">
+            <span className="text-blue-400 text-sm">Full-Stack Developer & Data Engineer</span>
           </div>
 
           <h1 className="text-6xl md:text-8xl mb-8">
-            I am <span className="text-blue-400">Drashti</span>
+            I am <span className="text-blue-400">Vikyatha Komandla</span>
           </h1>
 
-          <p className="text-gray-300 text-lg md:text-xl mb-12 max-w-3xl leading-relaxed">
-            I'm a full-stack developer and aspiring AI engineer passionate about building intelligent, 
-            user-focused applications. I blend thoughtful frontend design with scalable backend systems 
-            to create products that are both functional and beautifully crafted. My work spans React, 
-            Next.js, Flask, Prisma, and cloud-based architectures, with special interest in applying 
-            machine learning to solve real-world problems.
+          <p className="text-gray-300 text-lg md:text-xl mb-12 max-w-4xl leading-relaxed">
+          I’m a full-stack developer and aspiring data engineer who enjoys building intelligent, user-centered applications. I combine 
+          clean, intuitive frontend design with scalable backend and data-driven systems to create products that are both impactful and 
+          thoughtfully crafted. My experience spans React, Next.js, Flask, Prisma, and cloud-based architectures, with a growing focus 
+          on applying machine learning and data engineering principles to solve real-world problems.
           </p>
 
           <div className="flex gap-4 mt-12">
             <a
-              href="https://github.com"
+              href="https://github.com/vxk8058"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full border border-blue-400 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition-all"
@@ -41,7 +40,7 @@ export function Hero() {
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/vikyatha-komandla"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full border border-blue-400 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition-all"
@@ -49,7 +48,7 @@ export function Hero() {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="mailto:hello@drashti.dev"
+              href="mailto:vikcloud09@gmail.com"
               className="w-12 h-12 rounded-full border border-blue-400 flex items-center justify-center text-blue-400 hover:bg-blue-400 hover:text-white transition-all"
             >
               <Mail className="w-5 h-5" />
