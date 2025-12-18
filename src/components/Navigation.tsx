@@ -39,16 +39,6 @@ export function Navigation({ activeSection }: NavigationProps) {
     >
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex items-center justify-between py-6 md:py-7">
-          {/* Bigger brand */}
-          <button
-            onClick={() => scrollToSection('home')}
-            className="text-2xl md:text-3xl font-semibold tracking-tight"
-          >
-            <span className="text-blue-400">D</span>rashti
-            <span className="text-blue-400">.dev</span>
-          </button>
-
-          {/* Bigger nav items */}
           <div className="hidden md:flex items-center gap-10">
             {navItems.map((item) => (
               <button
