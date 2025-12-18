@@ -1,0 +1,62 @@
+import React from 'react';
+
+export function Skills() {
+  const skillCategories = [
+    {
+      category: 'Languages',
+      skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C++', 'SQL', 'HTML/CSS'],
+    },
+    {
+      category: 'Frontend',
+      skills: ['React', 'Next.js', 'Vue.js', 'Tailwind CSS', 'Redux', 'Material-UI', 'Framer Motion'],
+    },
+    {
+      category: 'Backend',
+      skills: ['Node.js', 'Express', 'Flask', 'Django', 'FastAPI', 'PostgreSQL', 'MongoDB'],
+    },
+    {
+      category: 'Data',
+      skills: ['TensorFlow', 'PyTorch', 'scikit-learn', 'OpenCV', 'NLP', 'Computer Vision', 'Deep Learning'],
+    },
+    {
+      category: 'Tools & Cloud',
+      skills: ['Git', 'Docker', 'Kubernetes', 'AWS', 'Azure', 'CI/CD', 'Linux', 'Nginx'],
+    },
+    {
+      category: 'Other',
+      skills: ['REST APIs', 'GraphQL', 'WebSockets', 'Microservices', 'Agile', 'Testing', 'DevOps'],
+    },
+  ];
+
+  return (
+    <section id="projects" className="py-20 bg-gray-950">
+      <div className="max-w-6xl mx-auto px-6 py-4">
+        <div className="mb-20 md:mb-24 text-center">
+          <h2 className="text-5xl md:text-6xl mb-6">Technical Skills</h2>
+          <p className="text-gray-400 text-lg">Technologies and tools I work with</p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto mt-10">
+          {skillCategories.map((category, index) => (
+            <div
+              key={index}
+              className="border border-blue-500/30 rounded-lg p-8 hover:border-blue-500 transition-all hover:shadow-lg hover:shadow-blue-500/10 bg-gray-950/50"
+            >
+              <h3 className="text-2xl text-blue-400 mb-8 text-center">{category.category}</h3>
+              <div className="flex flex-wrap gap-3 justify-center">
+                {category.skills.map((skill, idx) => (
+                  <span
+                    key={idx}
+                    className="px-4 py-2 rounded-lg bg-gray-800 text-gray-300 hover:bg-blue-500/20 hover:text-blue-400 transition-all cursor-default border border-gray-700 hover:border-blue-500/50"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
