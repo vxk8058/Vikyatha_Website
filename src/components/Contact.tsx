@@ -24,7 +24,7 @@ export function Contact() {
 
   return (
     <section id="contact" className="bg-gray-950 py-24 md:py-28">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="mx-auto w-full max-w-6xl px-6 sm:px-8 lg:px-10">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-semibold tracking-tight">
             Get In Touch
@@ -139,7 +139,7 @@ export function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-xl bg-gray-950 border border-gray-700 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-fuchsia-500/20 text-white transition-colors"
+                    className="w-full px-4 rounded-xl bg-gray-950 border border-gray-700 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-fuchsia-500/20 text-white transition-colors"
                     placeholder="John Doe"
                   />
                 </div>
