@@ -25,7 +25,6 @@ export function Contact() {
   return (
     <section id="contact" className="bg-gray-950 py-24 md:py-28">
       <div className="max-w-6xl mx-auto px-6">
-        {/* Header (match the example: centered, lots of space before content) */}
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-semibold tracking-tight">
             Get In Touch
@@ -35,13 +34,10 @@ export function Contact() {
             Let&apos;s collaborate on your next project
           </p>
 
-          {/* subtle divider spacing like the example */}
           <div className="mt-12 h-px w-24 mx-auto bg-linear-to-r from-transparent via-fuchsia-500/50 to-transparent" />
         </div>
 
-        {/* Content block: push it down so it feels like the example */}
         <div className="mt-16 md:mt-20 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-          {/* Left: Contact Information */}
           <div className="space-y-10">
             <div>
               <h3 className="text-3xl font-semibold text-blue-300">
@@ -55,7 +51,6 @@ export function Contact() {
             </div>
 
             <div className="space-y-5">
-              {/* Email */}
               <a
                 href="mailto:vikcloud09@gmail.com"
                 className="flex items-center gap-4 p-5 rounded-xl border border-gray-800 hover:border-blue-500/70 bg-gray-950/40 hover:bg-gray-900/30 transition-all"
@@ -68,7 +63,6 @@ export function Contact() {
                   <p className="text-gray-200 truncate">vikcloud09@gmail.com</p>
                 </div>
 
-                {/* pink accent edge */}
                 <div className="ml-auto h-8 w-px bg-fuchsia-500/30" />
               </a>
 
@@ -199,7 +193,6 @@ export function Contact() {
           </div>
         </div>
 
-        {/* optional: extra breathing room above footer like the example */}
         <div className="mt-16" />
       </div>
     </section>

@@ -4,28 +4,21 @@ export function Skills() {
   const skillCategories = [
     {
       category: 'Languages',
-      skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C++', 'SQL', 'HTML/CSS'],
+      skills: ['Python', 'Java', 'SQL', 'JavaScript', 'TypeScript', 'C++', 'C#', 'HTML/CSS'],
     },
     {
-      category: 'Frontend',
-      skills: ['React', 'Next.js', 'Vue.js', 'Tailwind CSS', 'Redux', 'Material-UI', 'Framer Motion'],
+      category: 'Frameworks & Libraries',
+      skills: ['React', 'Next.js', 'Tailwind CSS', 'Material-UI', 'Framer Motion', 'Node.js', 'Flask', 'FastAPI', 'Spring Boot', 'JUnit'],
     },
     {
-      category: 'Backend',
-      skills: ['Node.js', 'Express', 'Flask', 'Django', 'FastAPI', 'PostgreSQL', 'MongoDB'],
-    },
-    {
-      category: 'Data',
-      skills: ['TensorFlow', 'PyTorch', 'scikit-learn', 'OpenCV', 'NLP', 'Computer Vision', 'Deep Learning'],
-    },
-    {
-      category: 'Tools & Cloud',
-      skills: ['Git', 'Docker', 'Kubernetes', 'AWS', 'Azure', 'CI/CD', 'Linux', 'Nginx'],
+      category: 'Tools & Platforms',
+      skills: ['Git', 'GitHub', 'Apache Airflow', 'PostgreSQL', 'MongoDB', 'MySQL', 'Snowflake', 'VS Code', 'Jira', 'Confluence', 'Microsoft Suite'],
     },
     {
       category: 'Other',
-      skills: ['REST APIs', 'GraphQL', 'WebSockets', 'Microservices', 'Agile', 'Testing', 'DevOps'],
+      skills: ['AWS', 'RESTful APIs', 'GraphQL', 'Agile Methodologies', 'Unit Testing'],
     },
+    
   ];
 
   return (
@@ -36,7 +29,7 @@ export function Skills() {
           <p className="text-gray-400 text-lg">Technologies and tools I work with</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto mt-10">
           {skillCategories.map((category, index) => (
             <div
               key={index}

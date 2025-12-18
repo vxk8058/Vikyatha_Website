@@ -4,31 +4,28 @@ import React from 'react';
 export function Projects() {
   const projects = [
     {
-      title: 'AgentGrove',
-      subtitle: 'Multi-Agent System for Product Managers',
-      description: 'Built at HackUTD using AWS Bedrock Agents, Lambda, and structured agent workflows to automate product management tasks.',
+      title: 'Syllabus Agent',
+      subtitle: 'AI-Powered Academic Planning Assistant',
+      description: 'Built to parse course syllabi and extract key deadlines, grading policies, and requirements using NLP and structured workflows, helping students stay organized and informed.',
       image: 'https://images.unsplash.com/photo-1759661966728-4a02e3c6ed91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwdmlzdWFsaXphdGlvbiUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NjYwMDUzMjh8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      tags: ['AWS', 'Bedrock', 'Lambda', 'Agents'],
-      github: '#',
-      demo: '#',
+      tags: ['Python', 'NLP', 'LLMs', 'Automation'],
+      github: 'https://github.com/vxk8058/syllabus-agent'      
     },
     {
-      title: 'ResuBot',
-      subtitle: 'AI Resume Chatbot',
-      description: 'NLP-powered resume analyzer using spaCy, Flask, MongoDB, and React frontend to help users optimize their resumes.',
+      title: 'InvestAssure',
+      subtitle: 'AI-Assisted Investment Risk Analysis Platform',
+      description: 'Developed to simplify investment decisions by analyzing market news, financial data, and risk signals, delivering clear, AI-powered explanations through an intuitive interface.',
       image: 'https://images.unsplash.com/photo-1643116774075-acc00caa9a7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGV8ZW58MXx8fHwxNzY1OTc2OTA1fDA&ixlib=rb-4.1.0&q=80&w=1080',
-      tags: ['React', 'Flask', 'MongoDB', 'React'],
-      github: '#',
-      demo: '#',
+      tags: ['Python', 'React', 'Flask', 'NLP', 'APIs'],
+      github: 'https://github.com/Dshah1003/Wehaack2025'
     },
     {
-      title: 'Study Buddy',
-      subtitle: 'AI Study Scheduler',
-      description: 'Full-stack React + Firebase productivity assistant with chat UI and dashboard to help students manage their study schedules.',
+      title: 'BudgetWallet',
+      subtitle: 'Smart Personal Finance Tracker',
+      description: 'A full-stack budgeting application that helps users track expenses, savings, and spending trends with secure authentication and data-driven insights for better financial decisions.',
       image: 'https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY2MDUxNTU5fDA&ixlib=rb-4.1.0&q=80&w=1080',
-      tags: ['React', 'Firebase', 'AI', 'Chat'],
-      github: '#',
-      demo: '#',
+      tags: ['Java', 'JavaScript', 'SQLite', 'HTML', 'CSS'],
+      github: 'https://github.com/vxk8058/BudgetWallet'
     },
   ];
 
@@ -40,7 +37,7 @@ export function Projects() {
           <p className="text-gray-400 text-lg">Click on a project to view more details</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto mt-10">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -79,13 +76,7 @@ export function Projects() {
                     <Github className="w-4 h-4" />
                     Code
                   </a>
-                  <a
-                    href={project.demo}
-                    className="flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 text-sm text-white transition-colors"
-                  >
-                    <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </a>
+                  
                 </div>
               </div>
             </div>
