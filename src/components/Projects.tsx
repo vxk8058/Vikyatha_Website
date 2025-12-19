@@ -1,5 +1,9 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import BudgetWalletImage from './assets/BudgetWallet.png';
+import InvestAssureImage from './assets/InvestAssure.png';
+import SyllabusAgentImage from './assets/Syllabus-Agent.png';
+
 
 export function Projects() {
   const projects = [
@@ -7,7 +11,7 @@ export function Projects() {
       title: 'Syllabus Agent',
       subtitle: 'AI-Powered Academic Planning Assistant',
       description: 'Built to parse course syllabi and extract key deadlines, grading policies, and requirements using NLP and structured workflows, helping students stay organized and informed.',
-      image: 'https://images.unsplash.com/photo-1759661966728-4a02e3c6ed91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwdmlzdWFsaXphdGlvbiUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NjYwMDUzMjh8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: SyllabusAgentImage,
       tags: ['Python', 'NLP', 'LLMs', 'Automation'],
       github: 'https://github.com/vxk8058/syllabus-agent'      
     },
@@ -15,7 +19,7 @@ export function Projects() {
       title: 'InvestAssure',
       subtitle: 'AI-Assisted Investment Risk Analysis Platform',
       description: 'Developed to simplify investment decisions by analyzing market news, financial data, and risk signals, delivering clear, AI-powered explanations through an intuitive interface.',
-      image: 'https://images.unsplash.com/photo-1643116774075-acc00caa9a7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMGNvZGV8ZW58MXx8fHwxNzY1OTc2OTA1fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: InvestAssureImage,
       tags: ['Python', 'React', 'Flask', 'NLP', 'APIs'],
       github: 'https://github.com/Dshah1003/Wehaack2025'
     },
@@ -23,7 +27,7 @@ export function Projects() {
       title: 'BudgetWallet',
       subtitle: 'Smart Personal Finance Tracker',
       description: 'A full-stack budgeting application that helps users track expenses, savings, and spending trends with secure authentication and data-driven insights for better financial decisions.',
-      image: 'https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzY2MDUxNTU5fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: BudgetWalletImage,
       tags: ['Java', 'JavaScript', 'SQLite', 'HTML', 'CSS'],
       github: 'https://github.com/vxk8058/BudgetWallet'
     },
