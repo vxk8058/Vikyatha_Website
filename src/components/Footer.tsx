@@ -6,10 +6,10 @@ export function Footer() {
 
   return (
     <footer className="py-12 px-6 bg-gray-950 border-t border-gray-800">
-      <div className="max-w-6xl mx-auto px-6 py-4">
+      <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-gray-400">
-            <span>© {currentYear} Drashti.dev. All rights reserved.</span>
+            <span>© {currentYear} Vikyatha's website. All rights reserved.</span>
           </div>
 
           <div className="flex items-center gap-2 text-gray-400">
