@@ -3,14 +3,14 @@ import React from 'react';
 export function Experience() {
   const experiences = [
     {
-      title: 'Undergraduate Research Assistant',
-      company: 'The University of Texas at Dallas',
-      location: 'Richardson, TX',
-      period: 'Aug. 2025 – Present',
-      description: [
-        'Implemented and compared DL behavioral models using Lightning Pose, Anipose, and DeepLabCut for motion analysis',
-        'Trained unsupervised deep learning models with PyTorch and Lightning AI for high-precision tracking and motion analysis',
-        'Applied computer vision and data analysis techniques (OpenCV, NumPy, scikit-learn) to detect subtle motor differences and enhance model precision for neuroscience research',
+      title: 'Data Engineering Intern',
+      company: 'RSM Technology.',
+      location: 'Remote',
+      period: 'May 2025 - Aug 2025',
+      description: [ 
+        'Wrote and optimized complex SQL queries in Snowflake to retrieve, join, and validate large datasets across multiple environments, ensuring data accuracy and consistency',
+        'Analyzed and validated source-to-target data mappings and participated in end-to-end testing of transformation logic to verify correctness and reliability of data pipelines',
+        'Documented test cases, validation results, and data quality findings using Confluence and SharePoint, while collaborating cross-functionally and tracking progress through Jira',
       ],
     },
   ];
