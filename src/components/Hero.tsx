@@ -16,11 +16,11 @@ export function Hero() {
       <div className="max-w-7xl mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl">
           <div className="inline-block px-4 py-2 rounded-full border border-blue-400 mb-8">
-            <span className="text-blue-400 text-sm">&lt;/&gt; Full-Stack Developer & Data Engineer</span>
+            <span className="text-blue-400 text-sm">Full-Stack Developer & Data Engineer</span>
           </div>
 
           <h1 className="text-6xl md:text-8xl mb-8">
-            I am <span className="text-blue-400">Vikyatha Komandla</span>
+            Hello, I am <span className="text-blue-400">Vikyatha</span>
           </h1>
 
           <p className="text-gray-300 text-lg md:text-xl mb-12 max-w-3xl leading-relaxed">

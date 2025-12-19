@@ -20,7 +20,7 @@ export function Experience() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center">
           <h2 className="text-5xl md:text-6xl mb-6">Experience</h2>
-          <p className="text-gray-400 text-lg">My professional journey and research contributions</p>
+          {/* <p className="text-gray-400 text-lg">My professional journey and research contributions</p> */}
         </div>
 
         <div className="space-y-12 max-w-4xl mx-auto mt-16">

@@ -34,7 +34,7 @@ export function Projects() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-16 text-center">
           <h2 className="text-5xl md:text-6xl mb-6">Projects</h2>
-          <p className="text-gray-400 text-lg">Click on a project to view more details</p>
+          {/* <p className="text-gray-400 text-lg">Click on a project to view more details</p> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto mt-16">
