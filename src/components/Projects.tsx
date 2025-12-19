@@ -1,5 +1,5 @@
-import { ExternalLink, Github } from 'lucide-react';
 import React from 'react';
+import { ExternalLink, Github } from 'lucide-react';
 
 export function Projects() {
   const projects = [
@@ -30,14 +30,14 @@ export function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-24 bg-gray-950">
-      <div className="max-w-6xl mx-auto px-6 py-4">
-        <div className="mb-20 md:mb-24 text-center">
+    <section id="projects" className="min-h-screen py-24 px-6 bg-gray-950">
+      <div className="max-w-7xl mx-auto">
+        <div className="mb-16 text-center">
           <h2 className="text-5xl md:text-6xl mb-6">Projects</h2>
           <p className="text-gray-400 text-lg">Click on a project to view more details</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto mt-16">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -49,7 +49,7 @@ export function Projects() {
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-linear-to-t from-gray-900 via-gray-900/40 to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
+                <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-60 group-hover:opacity-80 transition-opacity" />
               </div>
 
               <div className="p-6">
@@ -76,7 +76,6 @@ export function Projects() {
                     <Github className="w-4 h-4" />
                     Code
                   </a>
-                  
                 </div>
               </div>
             </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-
 export function Skills() {
   const skillCategories = [
     {
@@ -22,14 +21,14 @@ export function Skills() {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-950">
-      <div className="max-w-6xl mx-auto px-6 py-4">
-        <div className="mb-20 md:mb-24 text-center">
+    <section id="skills" className="min-h-screen py-24 px-6 bg-gray-900">
+      <div className="max-w-7xl mx-auto">
+        <div className="mb-16 text-center">
           <h2 className="text-5xl md:text-6xl mb-6">Technical Skills</h2>
           <p className="text-gray-400 text-lg">Technologies and tools I work with</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto mt-16">
           {skillCategories.map((category, index) => (
             <div
               key={index}
