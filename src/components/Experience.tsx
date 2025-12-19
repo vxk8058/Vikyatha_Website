@@ -3,14 +3,14 @@ import React from 'react';
 export function Experience() {
   const experiences = [
     {
-      title: 'Data Engineering Intern',
-      company: 'RSM Technology.',
-      location: 'Remote',
-      period: 'May 2025 - Aug 2025',
-      description: [ //fix this
-        'Developed responsive web applications using React, TypeScript, and Tailwind CSS',
-        'Collaborated with cross-functional teams to deliver features on tight deadlines',
-        'Optimized application performance resulting in 40% faster load times',
+      title: 'Undergraduate Research Assistant',
+      company: 'The University of Texas at Dallas',
+      location: 'Richardson, TX',
+      period: 'Aug. 2025 – Present',
+      description: [
+        'Implemented and compared DL behavioral models using Lightning Pose, Anipose, and DeepLabCut for motion analysis',
+        'Trained unsupervised deep learning models with PyTorch and Lightning AI for high-precision tracking and motion analysis',
+        'Applied computer vision and data analysis techniques (OpenCV, NumPy, scikit-learn) to detect subtle motor differences and enhance model precision for neuroscience research',
       ],
     },
   ];

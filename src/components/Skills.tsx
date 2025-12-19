@@ -11,7 +11,7 @@ export function Skills() {
     },
     {
       category: 'Tools & Platforms',
-      skills: ['Git', 'GitHub', 'Apache Airflow', 'PostgreSQL', 'MongoDB', 'MySQL', 'Snowflake', 'VS Code', 'Jira', 'Confluence', 'Microsoft Suite'],
+      skills: ['Git', 'GitHub', 'Apache Airflow', 'PostgreSQL', 'MongoDB', 'MySQL', 'SQLite', 'BigQuery', 'Snowflake', 'VS Code', 'Jira', 'Confluence', 'Microsoft Suite'],
     },
     {
       category: 'Other',
